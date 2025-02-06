@@ -12,4 +12,26 @@ Syntactically  correct but not getting expected results.
 
 3. Run time Errors:-> (external errors)
 Faced by users. Based on mishandling of program. 
-Cause= bad input or unavalability of resources. 
+Cause= bad input or unavalability of resources. Programmer needs to take care at the time of building the application.
+
+
+
+this runtime errors are handled by exception handling.
+syntax error by compiler
+logical error by debugger.
+
+
+when Exception occurs the program gets terminated. As we want the program should not terminate and run the remaining part we handle the exception.
+
+consider the program below:
+
+        class test{
+            int i=5;
+            int b=0;
+            int c;
+            c=i/b   //this will give infinite but in programming it is an exception. the program will terminate here and nothing below this will get executed. We need to avoid this from happening.
+
+            sysout("We want to execute this statement even it is exvception");
+
+            sysout("End program smoothly);
+        }
