@@ -1,0 +1,15 @@
+Exception Handling.
+
+exception -> Run time errors.
+
+#type of errors:
+
+1.Syntax error:->
+example is missing a semi colon. Compiler will identify these errors. Systax error avoids compiler to convert the code to the byte code.
+
+2.Logical error:-.
+Syntactically  correct but not getting expected results. 
+
+3. Run time Errors:-> (external errors)
+Faced by users. Based on mishandling of program. 
+Cause= bad input or unavalability of resources. 
