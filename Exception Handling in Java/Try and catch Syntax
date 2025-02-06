@@ -1,0 +1,20 @@
+Lets see the syntax of try and catch block:
+
+class test{
+    try{
+        int a=10;
+        int b=0;
+        int  c=a/b; 
+        System.out.println(c);
+    
+    }catch (ArithematicException e){
+        system.out.println("Division by zero not allowed " + e);
+    
+    }
+}
+
+
+
+//this is 10/0 which is infinity. this is considered as arithematic exception. 
+//So here we are saying that the try block can throw exception so if it throws then catch it.
+//arithematic exception is inbult provided by the Exception class so we are catching that exception.We have also printed our default message which is optional.
