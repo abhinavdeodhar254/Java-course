@@ -1,0 +1,3 @@
+1. for one try block there can be more than one catch block.
+if in one try block if there can be more than one exception possible then these different exception can be catched by different catch blocks.
+
