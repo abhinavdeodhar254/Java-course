@@ -33,7 +33,7 @@ public class CheckedUnchaecked {
             R1.method3();
         } catch (Exception e) {
             System.out.println("Arithematic error");
-            e.getStackTrace(); //this will tell us the whole stack from where the exception is occuring.
+            e.printStackTrace(); //this will tell us the whole stack from where the exception is occuring.
         }
 
         //Even here the exception is not taken care of hence it
