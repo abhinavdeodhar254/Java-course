@@ -38,3 +38,18 @@ class test{
 //**********************< FINALLY BLOCK >**********************
 
 // Finally blocks are optional and they will get executed always. regardless of the exception occurance or not.
+
+there is one more way in which we can declared the nested try
+catch block that is a try block within other try block.
+
+try{
+//sample code;
+    try{
+        //sample code;
+    }catch(e){ //this exceotion catch block will catch the exception of inner try block.
+            //sample code; 
+    }
+
+}catch(e){
+//this will catch the exception of outer catch block.
+}
