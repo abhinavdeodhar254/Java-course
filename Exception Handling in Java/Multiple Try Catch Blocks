@@ -1,6 +1,5 @@
 /*1. for one try block there can be more than one catch block.
-if in one try block if there can be more than one exception possible then these different<br>
-exception can be catched by different catch blocks.*/
+if in one try block if there can be more than one exception possible then these different exception can be catched by different catch blocks.*/
 
 class test{
     int[] a={1,0,3,4,5,6,7};
@@ -29,6 +28,7 @@ class test{
 
 // In this way try block can have more than one exception and catch blocks to that single try blocks can be multiple.
 
-try block must be inside some method()
+//when we are using multiple catch blocks the above catch block should be
+//the sub class and the below catch block should be the superclass.
 
 
