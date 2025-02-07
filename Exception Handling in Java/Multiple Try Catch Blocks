@@ -1,3 +1,31 @@
-1. for one try block there can be more than one catch block.
-if in one try block if there can be more than one exception possible then these different exception can be catched by different catch blocks.
+/*1. for one try block there can be more than one catch block.
+if in one try block if there can be more than one exception possible then these different exception can be catched by different catch blocks.*/
+
+class test{
+    int[] a={1,0,3,4,5,6,7};
+
+    try{
+        int c= a[1]/async[0]; //here this is again arethamatic exception.
+
+        system.out.println(a[10]) //array size is just 6 and accessing 10th element this is array out of bond exception.
+
+        //so we need two different catch blocks to catch these two different exceptions.
+
+        //different catch blocks will catch the respective exception.
+
+    }catch(Arithematicexception e){
+        system.out.println("can't divide by zero "+e);
+    }//this will catch the  the arithematic exception.
+
+    catch(ArrayOutofboundException e){
+            system.out.println('Array index is out of bond '+ e);
+
+    }//this will catch the array exception.
+      
+    
+    
+}
+
+// In this way try block can have more than one exception and catch blocks to that single try blocks can be multiple.
+
 

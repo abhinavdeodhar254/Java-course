@@ -1,0 +1,40 @@
+Try and catch block is inside the try block then it is nested try catch block.
+
+try{
+    ------
+    -------
+    try{
+       //this try catch block is inside the try block.
+    }catch(){
+
+    }
+}catch (){
+
+}
+
+//the exception thrown by the inner tryblock willget catched by the inner try catch block and the exception of the outer try block will be catched by the outer catch block.
+
+
+
+class test{
+    try{
+        int[] A={1,0,2,3,4,5,6,7};
+        try{
+            int c=A[0]/A[1]; //arthematic exception
+        }catch(ArithematicException e){
+            sysout("Number dividing by zero" + e);
+        }//this catch block will catch the exception of inner try block.
+
+
+        sysout(A[10]);//this statementis part of the outer try block.
+        //outer catch block will catch this statement.
+
+    }catch (ArrayOutofboundException e){
+        sysout("Array length is 8 trying to access 10th element "+ e);
+    }
+}
+
+
+//**********************< FINALLY BLOCK >**********************
+
+// Finally blocks are optional and they will get executed always. regardless of the exception occurance or not.
