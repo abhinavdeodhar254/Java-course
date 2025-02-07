@@ -20,7 +20,7 @@ class withdraw{ //this is the sample class we need to call our exception.
 }
 
 
-public class Definingourownexception {
+public class DefiningoOurOwnException {
     public static void main(String[] args) {
         withdraw fun1=new withdraw();
         fun1.functiondemo(); //here we are calling the method and we purpously are using "throw" keyword to throw that exception.
