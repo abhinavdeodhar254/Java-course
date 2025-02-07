@@ -1,0 +1,46 @@
+//There are two types of exceptions;
+checked excepions: always need to manage by try catch block.
+file not found exception.
+
+unchecked exception: not compulsory to manage by try and catch block.
+example; arethematic exception, array out of bound, null pointer exception.
+
+
+Methods of Exception;
+
+1. String getMessage():
+to print the exception message using system.out.println(e.getMessage);
+
+2. String toString():
+to print the exception message using the System.out.println(e);
+this implementation is different from the above.
+
+3.void printStackTrace():
+
+
+// method2(){
+//     // here the ecxception was raised.
+// }
+// method1(){
+//     method2(); //method 1 is calling method 2
+// }
+// main(){
+//     method1()  //main is calling method 1
+// }
+
+// so to know the stack trace of which method was called and where was
+// the exception raised this printStackTrace() method is used.
+
+we use it in the following way:
+// e.printStackTrace();
+
+We can also create our own exceptions from the exception class.
+the return type will be String
+
+//public LowBalanceException extends Exception(){
+//          public string toString(){
+//                  system.out.println("balance is less than 5000");
+//          }
+// }
+
+// So now whenever we will use this exception the following message will be printed
