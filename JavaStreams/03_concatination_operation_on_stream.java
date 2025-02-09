@@ -13,7 +13,7 @@ stream.of("four","five","six")
 //initialize these two streams to the default variable and comment out the for each loop in both.
 
 var firststream=Arrays.stream(Strings)
-        .sorted(reverse.reverseOrdered())
+        .sorted(Comparator.reverseOrdered())
         // .forEach(System.out::println);
 
 var SecondStream=stream.of("four","five","six")
