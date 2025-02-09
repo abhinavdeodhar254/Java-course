@@ -58,6 +58,9 @@ final class rectangleArea{
         if(breadth<0){
             throw new DimensionscannotbeNegative();
         }
+        else{
+            this.breadth=breadth;
+        }
     }
 
     public double CalculateAreaOfRectangle(){
