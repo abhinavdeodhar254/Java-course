@@ -22,7 +22,7 @@ Arrys.stream(strings)
 //we will use the foreach loop as the termination operator.
 
 Arrays.stream(Strings)
-        .sorted(reverse.reverseOrder())
+        .sorted(Comparator.reverseOrder())
         .forEach(System.out::println);
 
 //this is the simple stream operation where we are have a source to the stream as the array of string 
