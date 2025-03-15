@@ -18,7 +18,7 @@ class one{
     }
 
     public void method3(){
-    calculate();  //here we are calling the same method but the 
+    method2();  //here we are calling the same method but the 
                   //exception is not handled here as well.
                    //exception goes to the method which has called this method. that is main method.
     }
